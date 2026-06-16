@@ -1,0 +1,7 @@
+{"P001": {"name": "John Doe", "city": "Ghuwathi", "age": 30, "gender": "Male", "height": 1.75, "weight": 70, "bmi": 33.06, "verdict": "obese"}, 
+"P002": {"name": "Jane Smith", "city": "Mumbai", "age": 25, "gender": "Female", "height": 1.65, "weight": 60, "bmi": 22.01, "verdict": "normal"}, 
+"P003": {"name": "Alice Johnson", "city": "Delhi", "age": 40, "gender": "Female", "height": 1.60, "weight": 80, "bmi": 31.25, "verdict": "obese"}, 
+"P004": {"name": "Bob Brown", "city": "Ghuwathi", "age": 35, "gender": "Male", "height": 1.80, "weight": 90, "bmi": 27.78, "verdict": "overweight"}, 
+"P005": {"name": "Charlie Davis", "city": "Mumbai", "age": 28, "gender": "Male", "height": 1.70, "weight": 65, "bmi": 22.49, "verdict": "normal"}, 
+"P006": {"name": "Emily Wilson", "city": "Delhi", "age": 32, "gender": "Female", "height": 1.68, "weight": 75, "bmi": 26.57, "verdict": "overweight"}, 
+"P007": {"name": "David Lee", "city": "Ghuwathi", "age": 45, "gender": "Male", "height": 1.82, "weight": 95, "bmi": 28.70, "verdict": "overweight"}}
