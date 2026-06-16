@@ -30,6 +30,13 @@ class Patient(BaseModel):
     def transfrom_name(cls, value):
         return value.upper()      
 
+    @field_validator('age',mode='before')
+    @classmethod
+    def age_validator(cls,value):
+        if 0<value<100:
+            return value 
+        else :
+            raise ValueError("Age must be between 0 and 100")
         
 def insert_patient_data(patient: Patient):
 
@@ -37,7 +44,7 @@ def insert_patient_data(patient: Patient):
     print(patient.age)
     print('inserted')
 
-patient_info={'name':'nitish','age':30,'email':'abc@hdfc.com', 'weight':70.5, 'married':True,'allergies': ['pollen'], 'contact_details': {'email': 'abc@gmail.com', 'phone': '9812345667'}}
+patient_info={'name':'nitish','age':'30','email':'abc@hdfc.com', 'weight':70.5, 'married':True,'allergies': ['pollen'], 'contact_details': {'email': 'abc@gmail.com', 'phone': '9812345667'}}
 
 patient1=Patient(**patient_info)
 
