@@ -34,3 +34,5 @@ print(type(temp))
 temp1= patient1.model_dump_json(exclude={'address':['state']}) #convert the pydantic model in a dict
 print(temp1)
 print(type(temp1))
+
+#exclude_unset=True--Ignore the fields  which has not been defined 
